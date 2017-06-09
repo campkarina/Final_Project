@@ -17,8 +17,8 @@ public class LoadImage extends Application {
         StackPane sp = new StackPane();
         Image img = new Image("javafx.jpg");
         ImageView imgView = new ImageView(img);
-        imgView.setFitHeight(1500);
-        imgView.setFitWidth(1500);
+        imgView.setFitHeight(1000);
+        imgView.setFitWidth(1000);
         imgView.setPreserveRatio(true);
         sp.getChildren().add(imgView);
 
